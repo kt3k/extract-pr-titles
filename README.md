@@ -1,4 +1,4 @@
-# extract-pr-titles v1.0.0
+# extract-pr-titles v1.0.1
 
 > Extract PR Titles between the 2 given git refs.
 
