@@ -7,7 +7,6 @@ const main = ({ to, from, format, reverse }) => {
       console.log(err)
       return process.exit(1)
     }
-    console.log(JSON.stringify(result.all, null, 2))
     for (const title of extractPRTitles(result.all, { format, reverse })) {
       console.log(title)
     }
