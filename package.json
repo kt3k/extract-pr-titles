@@ -1,0 +1,28 @@
+{
+  "name": "extract-pr-titles",
+  "version": "0.1.0",
+  "description": "Extract PR titles between 2 refs in a git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/extract-pr-titles.git"
+  },
+  "keywords": [
+    "pull",
+    "request",
+    "git"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/extract-pr-titles/issues"
+  },
+  "homepage": "https://github.com/kt3k/extract-pr-titles#readme",
+  "dependencies": {
+    "minimisted": "^2.0.0",
+    "simple-git": "^1.126.0"
+  }
+}
