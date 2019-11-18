@@ -1,11 +1,11 @@
 {
   "name": "extract-pr-titles",
   "version": "0.1.0",
-  "description": "Extract PR titles between 2 refs in a git repository",
+  "description": "Extract PR Titles between the 2 given git refs.",
   "main": "index.js",
   "bin": "./bin/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "kocha test.js"
   },
   "repository": {
     "type": "git",
