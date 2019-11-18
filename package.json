@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Extract PR titles between 2 refs in a git repository",
   "main": "index.js",
+  "bin": "./bin/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/kt3k/extract-pr-titles#readme",
   "dependencies": {
     "minimisted": "^2.0.0",
+    "pupa": "^2.0.1",
     "simple-git": "^1.126.0"
   }
 }
