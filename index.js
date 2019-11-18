@@ -1,11 +1,14 @@
 const pupa = require('pupa')
 
+const DEFAULT_FORMAT = '{title} #{number}'
+
 /**
  * @param {Array<ListLogLine>} logLines
  * @param {string} format The format for PR in pupa format. Default is {title} #{number}.
  * @param {boolean} reverse Reverse the order of the output
  */
-module.exports = (logLines, format, reverse) => {
+module.exports = (logLines, { format, reverse } = {}) => {
+  format = format || DEFAULT_FORMAT
   const result = []
   for (line of logLines) {
     if (isMergedPRCommit(line)) {
