@@ -6,7 +6,7 @@
   "bin": "./bin/main.js",
   "scripts": {
     "test": "kocha test.js",
-    "cov": "nyc npm test"
+    "cov": "nyc --reporter=lcov --reporter=text-summary npm test"
   },
   "repository": {
     "type": "git",
