@@ -1,7 +1,7 @@
 {
   "name": "extract-pr-titles",
   "version": "1.0.2",
-  "description": "Extract PR Titles between the 2 given git refs.",
+  "description": "Extract PR Titles between the given 2 git refs.",
   "main": "index.js",
   "bin": "./bin/main.js",
   "scripts": {
