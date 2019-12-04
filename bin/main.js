@@ -2,8 +2,8 @@
 const git = require('simple-git')(process.cwd())
 const extractPRTitles = require('../index.js')
 
-const main = ({ to, from, format, reverse }) => {
-  git.log({ to, from }, (err, result) => {
+const main = ({ to, from, format, reverse, symmetric }) => {
+  git.log({ to, from, symmetric }, (err, result) => {
     if (err) {
       console.log(err)
       return process.exit(1)
@@ -16,7 +16,7 @@ const main = ({ to, from, format, reverse }) => {
 
 require('minimisted')(main, {
   string: ['to', 'from', 'format'],
-  boolean: ['reverse'],
+  boolean: ['reverse', 'symmetric'],
   alias: {
     r: 'reverse'
   }
