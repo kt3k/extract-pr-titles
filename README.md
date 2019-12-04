@@ -1,4 +1,4 @@
-# extract-pr-titles v1.0.2
+# extract-pr-titles v1.1.0
 
 [![CircleCI](https://circleci.com/gh/kt3k/extract-pr-titles.svg?style=svg)](https://circleci.com/gh/kt3k/extract-pr-titles)
 [![codecov](https://codecov.io/gh/kt3k/extract-pr-titles/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/extract-pr-titles)
